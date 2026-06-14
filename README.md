@@ -1,7 +1,7 @@
 # AI611 Team 16: Preference Transformer Notebook Report
 
 <p align="center">
-  <img src="assets/overview_framework.png" alt="Overview of the Framework" width="850">
+  <img src="assets/overview_framework.png" alt="Overview of the Framework" width="700">
 </p>
 
 <p align="center">
@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <img src="assets/overview_PT.png" alt="Overview of Preference Transformer" width="850">
+  <img src="assets/overview_PT.png" alt="Overview of Preference Transformer" width="800">
 </p>
 
 <p align="center">
   <em>Figure 2. Overview of Preference Transformer. Source: official Preference Transformer paper.</em>
 </p>
 
-—--
+---
 
 ## Paper Information
 
