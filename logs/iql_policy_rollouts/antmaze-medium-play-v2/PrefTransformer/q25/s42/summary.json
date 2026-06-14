@@ -1,0 +1,153 @@
+{
+  "checkpoint_dir": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_checkpoints/antmaze-medium-play-v2/PrefTransformer/q25/s42",
+  "checkpoint_path": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_checkpoints/antmaze-medium-play-v2/PrefTransformer/q25/s42/actor_latest.params",
+  "condition": "q25",
+  "env_name": "antmaze-medium-play-v2",
+  "episodes": 5,
+  "episodes_detail": [
+    {
+      "condition": "q25",
+      "done": true,
+      "end_xy": [
+        5.414629936218262,
+        3.0426464080810547
+      ],
+      "episode": 0,
+      "episode_info": {
+        "duration": 1.364588737487793,
+        "length": 1000,
+        "return": 0.0,
+        "success": 0.0
+      },
+      "file": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_rollouts/antmaze-medium-play-v2/PrefTransformer/q25/s42/episode_0.npz",
+      "goal": [
+        20.858440399169922,
+        20.49736213684082
+      ],
+      "length": 1000,
+      "normalized_return": 0.0,
+      "raw_return": 0.0,
+      "start_xy": [
+        -0.09000135213136673,
+        0.04124540090560913
+      ],
+      "success": 0.0
+    },
+    {
+      "condition": "q25",
+      "done": true,
+      "end_xy": [
+        20.6341552734375,
+        20.759033203125
+      ],
+      "episode": 1,
+      "episode_info": {
+        "duration": 0.2739434242248535,
+        "length": 303,
+        "return": 100.0,
+        "success": 100.0
+      },
+      "file": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_rollouts/antmaze-medium-play-v2/PrefTransformer/q25/s42/episode_1.npz",
+      "goal": [
+        21.051952362060547,
+        20.973398208618164
+      ],
+      "length": 303,
+      "normalized_return": 100.0,
+      "raw_return": 1.0,
+      "start_xy": [
+        -0.05453764647245407,
+        0.059840526431798935
+      ],
+      "success": 100.0
+    },
+    {
+      "condition": "q25",
+      "done": true,
+      "end_xy": [
+        19.913402557373047,
+        20.066755294799805
+      ],
+      "episode": 2,
+      "episode_info": {
+        "duration": 0.32488417625427246,
+        "length": 356,
+        "return": 100.0,
+        "success": 100.0
+      },
+      "file": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_rollouts/antmaze-medium-play-v2/PrefTransformer/q25/s42/episode_2.npz",
+      "goal": [
+        20.33084487915039,
+        20.305307388305664
+      ],
+      "length": 356,
+      "normalized_return": 100.0,
+      "raw_return": 1.0,
+      "start_xy": [
+        -0.02592506818473339,
+        0.08955250680446625
+      ],
+      "success": 100.0
+    },
+    {
+      "condition": "q25",
+      "done": true,
+      "end_xy": [
+        20.727619171142578,
+        20.875715255737305
+      ],
+      "episode": 3,
+      "episode_info": {
+        "duration": 0.32251977920532227,
+        "length": 356,
+        "return": 100.0,
+        "success": 100.0
+      },
+      "file": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_rollouts/antmaze-medium-play-v2/PrefTransformer/q25/s42/episode_3.npz",
+      "goal": [
+        20.245885848999023,
+        20.955421447753906
+      ],
+      "length": 356,
+      "normalized_return": 100.0,
+      "raw_return": 1.0,
+      "start_xy": [
+        -0.00839266274124384,
+        0.007301696576178074
+      ],
+      "success": 100.0
+    },
+    {
+      "condition": "q25",
+      "done": true,
+      "end_xy": [
+        20.547365188598633,
+        20.45585823059082
+      ],
+      "episode": 4,
+      "episode_info": {
+        "duration": 0.3755528926849365,
+        "length": 422,
+        "return": 100.0,
+        "success": 100.0
+      },
+      "file": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_rollouts/antmaze-medium-play-v2/PrefTransformer/q25/s42/episode_4.npz",
+      "goal": [
+        20.58589744567871,
+        20.944812774658203
+      ],
+      "length": 422,
+      "normalized_return": 100.0,
+      "raw_return": 1.0,
+      "start_xy": [
+        0.028500841930508614,
+        0.020072834566235542
+      ],
+      "success": 100.0
+    }
+  ],
+  "max_steps": 1000,
+  "output_dir": "/home/jhpark2/workspace/PreferenceTransformer/logs/iql_policy_rollouts/antmaze-medium-play-v2/PrefTransformer/q25/s42",
+  "seed": 42,
+  "temperature": 0.0
+}

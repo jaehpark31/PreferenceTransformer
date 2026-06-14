@@ -1,0 +1,1 @@
+{"reward/eval_cse_loss":0.30498477816581726,"reward/eval_trans_loss":0.30498477816581726,"_step":10000,"epoch":10000,"best_epoch":1405,"_wandb":{"runtime":6104},"reward/trans_loss":0.3386640250682831,"train_time":0.26077938079833984,"reward/eval_trans_loss_best":0.3376989960670471,"_runtime":6104,"_timestamp":1.7813530028292468e+09,"reward/cse_loss":0.3386640250682831}

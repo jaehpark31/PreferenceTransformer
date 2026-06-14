@@ -1,0 +1,1 @@
+{"_timestamp":1.7812714630684578e+09,"train_time":24.301286697387695,"_wandb":{"runtime":91},"_runtime":91,"_step":1,"epoch":1,"reward/lstm_loss":1.6334437131881714,"reward/eval_lstm_loss":3.3034567832946777}

@@ -1,0 +1,44 @@
+2026-06-12 22:36:10,764 INFO    MainThread:3233751 [wandb_setup.py:_flush():81] Current SDK version is 0.27.2
+2026-06-12 22:36:10,765 INFO    MainThread:3233751 [wandb_setup.py:_flush():81] Configure stats pid to 3233751
+2026-06-12 22:36:10,765 INFO    MainThread:3233751 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-12 22:36:10,765 INFO    MainThread:3233751 [wandb_init.py:setup_run_log_directory():723] Logging user logs to logs/pref_reward/antmaze-medium-play-v2/NMR/sanity_nmr_patch_q100_v2/s42/wandb/run-20260612_223610-9fni4c06/logs/debug.log
+2026-06-12 22:36:10,765 INFO    MainThread:3233751 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to logs/pref_reward/antmaze-medium-play-v2/NMR/sanity_nmr_patch_q100_v2/s42/wandb/run-20260612_223610-9fni4c06/logs/debug-internal.log
+2026-06-12 22:36:10,765 INFO    MainThread:3233751 [wandb_init.py:init():766] calling init triggers
+2026-06-12 22:36:10,765 INFO    MainThread:3233751 [wandb_init.py:init():771] wandb.init called with sweep_config: {}
+config: {'env': 'antmaze-medium-play-v2', 'model_type': 'NMR', 'max_traj_length': 1000, 'seed': 42, 'data_seed': 42, 'save_model': True, 'batch_size': 64, 'early_stop': False, 'min_delta': 0.001, 'patience': 10, 'reward_scale': 1.0, 'reward_bias': 0.0, 'clip_action': 0.999, 'reward_arch': '256-256', 'orthogonal_init': False, 'activations': 'relu', 'activation_final': 'none', 'training': True, 'n_epochs': 1, 'eval_period': 5, 'data_dir': './human_label', 'num_query': 1000, 'query_len': 100, 'skip_flag': 0, 'balance': False, 'topk': 10, 'window': 2, 'use_human_label': True, 'feedback_random': False, 'feedback_uniform': False, 'enable_bootstrap': False, 'comment': 'sanity_nmr_patch_q100_v2', 'robosuite': False, 'robosuite_dataset_type': 'ph', 'robosuite_dataset_path': './data', 'robosuite_max_episode_steps': 500, 'reward.optimizer_type': 'adam', 'reward.rf_lr': 0.0003, 'transformer.attn_pdrop': 0.1, 'transformer.embd_dim': 256, 'transformer.n_embd': 256, 'transformer.n_head': 1, 'transformer.n_layer': 3, 'transformer.n_positions': 1024, 'transformer.optimizer_type': 'adamw', 'transformer.pref_attn_embd_dim': 256, 'transformer.resid_pdrop': 0.1, 'transformer.scheduler_type': 'CosineDecay', 'transformer.train_type': 'mean', 'transformer.trans_lr': 0.0001, 'transformer.use_weighted_sum': False, 'transformer.vocab_size': 1, 'lstm.attn_pdrop': 0.1, 'lstm.embd_dim': 256, 'lstm.explicit_sparse': False, 'lstm.k': 5, 'lstm.lambda_kld': 0.1, 'lstm.lstm_lr': 0.001, 'lstm.n_embd': 256, 'lstm.n_head': 1, 'lstm.n_inner': 128, 'lstm.n_layer': 3, 'lstm.n_positions': 1024, 'lstm.optimizer_type': 'adam', 'lstm.resid_pdrop': 0.1, 'lstm.scheduler_type': 'none', 'lstm.softmax_temperature': 5, 'lstm.train_diff_bool': False, 'lstm.train_type': 'sum', 'lstm.use_kld': False, 'lstm.vocab_size': 1, 'logging.anonymous': None, 'logging.experiment_id': None, 'logging.group': None, 'logging.notes': None, 'logging.online': True, 'logging.output_dir': './logs/pref_reward', 'logging.prefix': '', 'logging.project': 'PrefRL', 'logging.random_delay': 0.0, 'hostname': 'jhpark2204', '_wandb': {}}
+2026-06-12 22:36:10,765 INFO    MainThread:3233751 [wandb_init.py:init():814] starting backend
+2026-06-12 22:36:10,978 INFO    MainThread:3233751 [wandb_init.py:init():829] sending inform_init request
+2026-06-12 22:36:11,229 INFO    MainThread:3233751 [wandb_init.py:init():834] backend started and connected
+2026-06-12 22:36:11,230 INFO    MainThread:3233751 [wandb_init.py:init():904] updated telemetry
+2026-06-12 22:36:11,233 INFO    MainThread:3233751 [wandb_init.py:init():927] communicating run to backend with 90.0 second timeout
+2026-06-12 22:36:11,650 INFO    MainThread:3233751 [wandb_init.py:init():972] starting run threads in backend
+2026-06-12 22:36:11,797 INFO    MainThread:3233751 [wandb_run.py:_console_start():2523] atexit reg
+2026-06-12 22:36:11,797 INFO    MainThread:3233751 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-06-12 22:36:11,797 INFO    MainThread:3233751 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-06-12 22:36:11,797 INFO    MainThread:3233751 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-06-12 22:36:11,798 INFO    MainThread:3233751 [wandb_init.py:init():1010] run started, returning control to user process
+2026-06-12 22:37:43,081 INFO    wandb-AsyncioManager-main:3233751 [service_client.py:_forward_responses():122] Reached EOF.
+2026-06-12 22:37:43,082 INFO    wandb-AsyncioManager-main:3233751 [mailbox.py:close():154] Closing mailbox, abandoning 2 handles.
+2026-06-12 22:37:43,082 ERROR   wandb-AsyncioManager-main:3233751 [asyncio_manager.py:fn_wrap_exceptions():184] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_manager.py", line 182, in fn_wrap_exceptions
+    await fn()
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/lib/run_messages.py", line 90, in loop
+    await asyncio_compat.race(
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_compat.py", line 278, in race
+    async with open_task_group(race=True) as tg:
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/contextlib.py", line 217, in __aexit__
+    await anext(self.gen)
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_compat.py", line 240, in open_task_group
+    await task_group._wait_all(race=race, timeout=exit_timeout)
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_compat.py", line 180, in _wait_all
+    raise exc
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/lib/run_messages.py", line 113, in _print_all
+    result = await handle.wait_async(timeout=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/mailbox/mailbox_handle.py", line 127, in wait_async
+    response = await self._handle.wait_async(timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/wandb/sdk/mailbox/response_handle.py", line 123, in wait_async
+    raise HandleAbandonedError()
+wandb.sdk.mailbox.mailbox_handle.HandleAbandonedError

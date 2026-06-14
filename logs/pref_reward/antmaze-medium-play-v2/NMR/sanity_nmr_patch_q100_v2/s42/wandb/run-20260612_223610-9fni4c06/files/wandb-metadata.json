@@ -1,0 +1,40 @@
+{
+  "os": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.15",
+  "startedAt": "2026-06-12T13:36:10.764031Z",
+  "args": [
+    "--use_human_label",
+    "True",
+    "--comment",
+    "sanity_nmr_patch_q100_v2",
+    "--env",
+    "antmaze-medium-play-v2",
+    "--logging.output_dir",
+    "./logs/pref_reward",
+    "--logging.online",
+    "False",
+    "--batch_size",
+    "64",
+    "--num_query",
+    "1000",
+    "--query_len",
+    "100",
+    "--n_epochs",
+    "1",
+    "--skip_flag",
+    "0",
+    "--seed",
+    "42",
+    "--model_type",
+    "NMR"
+  ],
+  "program": "-m JaxPref.new_preference_reward_main",
+  "git": {
+    "remote": "https://github.com/csmile-1006/PreferenceTransformer.git",
+    "commit": "f71647bb075c8287e2f26aded78aa8f1ac176eb5"
+  },
+  "root": "./logs/pref_reward/antmaze-medium-play-v2/NMR/sanity_nmr_patch_q100_v2/s42",
+  "host": "jhpark2204",
+  "executable": "/home/jhpark2/miniconda3/envs/offline-gpu/bin/python",
+  "writerId": "pcw3lwujbfkhanpxi8h5p03khhtcwc32"
+}

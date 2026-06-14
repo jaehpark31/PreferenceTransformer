@@ -1,0 +1,23 @@
+I0612 22:36:11.959672 132636676798272 xla_bridge.py:836] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/gym/spaces/box.py:84: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/jhpark2/miniconda3/envs/offline-gpu/lib/python3.11/site-packages/gym/core.py:172: DeprecationWarning: [33mWARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed) instead.[0m
+  deprecation(
+load datafile: 100%|██████████| 8/8 [00:01<00:00,  6.82it/s]
+load saved indices.
+load datafile: 100%|██████████| 8/8 [00:01<00:00,  6.87it/s]
+get queries from saved indices: 100%|██████████| 1000/1000 [00:00<00:00, 57822.96it/s]
+load datafile: 100%|██████████| 8/8 [00:01<00:00,  6.73it/s]
+get queries from saved indices: 100%|██████████| 100/100 [00:00<00:00, 59174.72it/s]
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 0), got 50256. This may result in unexpected behavior.
+---------------------  ---------
+epoch                    0
+reward/lstm_loss       100
+reward/eval_lstm_loss    3.30346
+---------------------  ---------
+----------------  --------
+epoch              1
+reward/lstm_loss   1.63344
+train_time        24.3013
+----------------  --------

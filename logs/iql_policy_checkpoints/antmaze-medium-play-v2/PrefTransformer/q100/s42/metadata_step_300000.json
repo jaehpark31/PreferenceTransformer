@@ -1,0 +1,33 @@
+{
+  "batch_size": 256,
+  "checkpoint_dir": "./logs/iql_policy_checkpoints/antmaze-medium-play-v2/PrefTransformer/q100/s42",
+  "comment": "policy_rollout_q100_PT",
+  "env_name": "antmaze-medium-play-v2",
+  "eval_episodes": 100,
+  "eval_interval": 100000,
+  "eval_returns": [
+    [
+      100000,
+      52.0
+    ],
+    [
+      200000,
+      61.0
+    ],
+    [
+      300000,
+      71.0
+    ]
+  ],
+  "label_mode": "last",
+  "max_steps": 1000000,
+  "model_type": "PrefTransformer",
+  "reward_ckpt_dir": "./logs/pref_reward/antmaze-medium-play-v2/PrefTransformer/main_q100/s42",
+  "run_save_dir": "./logs/tb/antmaze-medium-play-v2/reward_True_PrefTransformer/policy_rollout_q100_PT/42/2026-06-14 13:36:20",
+  "saved_at": "2026-06-14T13:45:49",
+  "seed": 42,
+  "seq_len": 100,
+  "step": 300000,
+  "use_diff": false,
+  "use_reward_model": true
+}

@@ -1,0 +1,3 @@
+epoch,reward/lstm_loss,reward/eval_lstm_loss
+0,100.0,3.3034568
+1,1.6334437,24.301286697387695
